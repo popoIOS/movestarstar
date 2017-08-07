@@ -15,6 +15,11 @@
 		2F755DD61C1FB53300EFC277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F755DD41C1FB53300EFC277 /* LaunchScreen.storyboard */; };
 		2F755DE11C1FB53300EFC277 /* MoveStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F755DE01C1FB53300EFC277 /* MoveStarTests.m */; };
 		2F755DEC1C1FB53300EFC277 /* MoveStarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F755DEB1C1FB53300EFC277 /* MoveStarUITests.m */; };
+		2F755DFE1C1FB5AC00EFC277 /* MovieAddComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F755DFC1C1FB5AC00EFC277 /* MovieAddComment.m */; };
+		2F755DFF1C1FB5AC00EFC277 /* MovieAddComment1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F755DFD1C1FB5AC00EFC277 /* MovieAddComment1.xib */; };
+		2F755E061C1FB61200EFC277 /* StarSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F755E031C1FB61200EFC277 /* StarSelected@2x.png */; };
+		2F755E071C1FB61200EFC277 /* StarSelectHeaf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F755E041C1FB61200EFC277 /* StarSelectHeaf@2x.png */; };
+		2F755E081C1FB61200EFC277 /* StarUnSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F755E051C1FB61200EFC277 /* StarUnSelect@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		2F755DE71C1FB53300EFC277 /* MoveStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F755DEB1C1FB53300EFC277 /* MoveStarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveStarUITests.m; sourceTree = "<group>"; };
 		2F755DED1C1FB53300EFC277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F755DFB1C1FB5AC00EFC277 /* MovieAddComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieAddComment.h; sourceTree = "<group>"; };
+		2F755DFC1C1FB5AC00EFC277 /* MovieAddComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieAddComment.m; sourceTree = "<group>"; };
+		2F755DFD1C1FB5AC00EFC277 /* MovieAddComment1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieAddComment1.xib; sourceTree = "<group>"; };
+		2F755E031C1FB61200EFC277 /* StarSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StarSelected@2x.png"; sourceTree = "<group>"; };
+		2F755E041C1FB61200EFC277 /* StarSelectHeaf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StarSelectHeaf@2x.png"; sourceTree = "<group>"; };
+		2F755E051C1FB61200EFC277 /* StarUnSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StarUnSelect@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +117,9 @@
 				2F755DCC1C1FB53300EFC277 /* ViewController.h */,
 				2F755DCD1C1FB53300EFC277 /* ViewController.m */,
 				2F755DCF1C1FB53300EFC277 /* Main.storyboard */,
+				2F755DFB1C1FB5AC00EFC277 /* MovieAddComment.h */,
+				2F755DFC1C1FB5AC00EFC277 /* MovieAddComment.m */,
+				2F755DFD1C1FB5AC00EFC277 /* MovieAddComment1.xib */,
 				2F755DD21C1FB53300EFC277 /* Assets.xcassets */,
 				2F755DD41C1FB53300EFC277 /* LaunchScreen.storyboard */,
 				2F755DD71C1FB53300EFC277 /* Info.plist */,
@@ -117,6 +131,7 @@
 		2F755DC61C1FB53300EFC277 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F755E001C1FB5E100EFC277 /* img */,
 				2F755DC71C1FB53300EFC277 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +153,16 @@
 				2F755DED1C1FB53300EFC277 /* Info.plist */,
 			);
 			path = MoveStarUITests;
+			sourceTree = "<group>";
+		};
+		2F755E001C1FB5E100EFC277 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				2F755E031C1FB61200EFC277 /* StarSelected@2x.png */,
+				2F755E041C1FB61200EFC277 /* StarSelectHeaf@2x.png */,
+				2F755E051C1FB61200EFC277 /* StarUnSelect@2x.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +270,11 @@
 			files = (
 				2F755DD61C1FB53300EFC277 /* LaunchScreen.storyboard in Resources */,
 				2F755DD31C1FB53300EFC277 /* Assets.xcassets in Resources */,
+				2F755E081C1FB61200EFC277 /* StarUnSelect@2x.png in Resources */,
+				2F755DFF1C1FB5AC00EFC277 /* MovieAddComment1.xib in Resources */,
+				2F755E071C1FB61200EFC277 /* StarSelectHeaf@2x.png in Resources */,
 				2F755DD11C1FB53300EFC277 /* Main.storyboard in Resources */,
+				2F755E061C1FB61200EFC277 /* StarSelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F755DFE1C1FB5AC00EFC277 /* MovieAddComment.m in Sources */,
 				2F755DCE1C1FB53300EFC277 /* ViewController.m in Sources */,
 				2F755DCB1C1FB53300EFC277 /* AppDelegate.m in Sources */,
 				2F755DC81C1FB53300EFC277 /* main.m in Sources */,

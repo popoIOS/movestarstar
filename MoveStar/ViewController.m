@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "MovieAddComment.h"
 
-@interface ViewController ()
+@interface ViewController ()<StarDelegate>
 
 @end
 
@@ -22,6 +23,18 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)addxinxin:(id)sender{
+    MovieAddComment *movie = [[MovieAddComment alloc] initWithFrame:CGRectMake(0, 0,  [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height)];
+    movie.delegate = self;
+    [self.view addSubview:movie];
+}
+
+-(void)setStarCountSount:(NSString *)sount{
+
+    NSLog(@"-------%@",sount);
+    
 }
 
 @end
